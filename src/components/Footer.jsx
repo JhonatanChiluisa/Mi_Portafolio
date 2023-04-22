@@ -1,6 +1,5 @@
 import { Grid, Typography, IconButton } from '@mui/material'
 import FacebookIcon from '@mui/icons-material/Facebook';
-import TwitterIcon from '@mui/icons-material/Twitter';
 import GoogleIcon from '@mui/icons-material/Google';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
@@ -12,11 +11,6 @@ function Footer() {
     direction="column"
     justifyContent="center"
     alignItems="center" className='Footer'>
-        <Grid item >
-            <Typography align='center' pl={50} pr={50} pt={10} color="secondary" variant='h5'>
-                "Con la práctica se llega a ser experto, aprende cada día algo nuevo."
-            </Typography>
-        </Grid>
         <Grid item>
             <Grid container
     direction="row"
@@ -29,6 +23,7 @@ function Footer() {
                         color="secondary"
                         aria-label="menu"
                         sx={{ mr: 2 }}
+                        href='https://www.facebook.com/jonathan.chiluisa.58?mibextid=ZbWKwL'
                     >
                         <FacebookIcon/>
                     </IconButton>
@@ -40,17 +35,7 @@ function Footer() {
                         color="secondary"
                         aria-label="menu"
                         sx={{ mr: 2 }}
-                    >
-                        <TwitterIcon/>
-                    </IconButton>
-                </Grid>
-                <Grid item>
-                    <IconButton
-                        size="large"
-                        edge="start"
-                        color="secondary"
-                        aria-label="menu"
-                        sx={{ mr: 2 }}
+                        href='mailto:jhonatanchiluisagarcia@gmail.com'
                     >
                         <GoogleIcon/>
                     </IconButton>
@@ -62,6 +47,7 @@ function Footer() {
                         color="secondary"
                         aria-label="menu"
                         sx={{ mr: 2 }}
+                        href='https://instagram.com/jhonatanjjj18?igshid=OTJhZDVkZWE='
                     >
                         <InstagramIcon/>
                     </IconButton>
@@ -73,6 +59,7 @@ function Footer() {
                         color="secondary"
                         aria-label="menu"
                         sx={{ mr: 2 }}
+                        href='https://www.linkedin.com/in/jhonatan-chiluisa-garcia-643204203'
                     >
                         <LinkedInIcon/>
                     </IconButton>
@@ -84,6 +71,7 @@ function Footer() {
                         color="secondary"
                         aria-label="menu"
                         sx={{ mr: 2 }}
+                        href='https://github.com/JhonatanChiluisa/'
                     >
                         <GitHubIcon/>
                     </IconButton>
@@ -92,7 +80,7 @@ function Footer() {
         </Grid>
         <Grid item >
             <Typography align='center' color="secondary" variant='subtitle1'>
-                Desarollado por mi @ Jhonatan J. Chiluisa 2023
+                Desarrollado por mi @ Jhonatan J. Chiluisa 2023
             </Typography>
         </Grid>
         <Grid item>
