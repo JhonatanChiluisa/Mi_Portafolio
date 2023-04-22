@@ -41,7 +41,7 @@ function Proyects() {
                         </CardActionArea>
                         <CardActions style={{backgroundColor: "#6E07F3"}}>
                             <Button size="small">
-                                <a href={curElem.html_url} target="_blank" style={{textDecoration: "none", color:"#ffffff"}}>
+                                <a href={curElem.html_url} rel='noopener' style={{textDecoration: "none", color:"#ffffff"}}>
                                   Abrir <img src={Link} alt='External link' className='IconLink'></img>
                                 </a>
                             </Button>
