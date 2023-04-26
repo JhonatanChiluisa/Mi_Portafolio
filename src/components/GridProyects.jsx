@@ -20,17 +20,15 @@ function GridProyects() {
         >
                 <Grid item xs={4}>
                   <div data-aos = "fade-up">
-                    <Typography variant='h4' mt={10} mb={2}>
+                    <Typography variant='h4' mt={15} mb={2} pr={5} pl={5}>
                         Mis proyectos de inicio
                     </Typography>
                   </div>   
                 </Grid>
                 <Grid item xs={4}>
                   <div data-aos = "fade-up">
-                    <Typography variant='body1' mb={10} pr={8} pl={8}>
-                        Soy adicto a los productos digitales. A lo largo de mi carrera,
-                        he desarrollado cientos de aplicaciones web, de escritorio, móviles y video juegos en diferentes tecnologías y frameworks. Eventualmente, decidí que sería un desafío
-                        divertido intentar diseñar y construir mi portafolio.
+                    <Typography variant='body1' mt={2} mb={10} pr={8} pl={8}>
+                        Soy adicto a los productos digitales. A lo largo de mi carrera, he desarrollado cientos de aplicaciones web, de escritorio, móviles y video juegos en diferentes tecnologías y frameworks. Eventualmente, decidí que sería un desafío divertido intentar diseñar y construir mi portafolio.
                     </Typography>
                   </div> 
                 </Grid>

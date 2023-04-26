@@ -8,8 +8,8 @@ import Footer from "./components/Footer";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
 import BgVideo from "./assets/video/bgvideo.mp4";
 import { Typography, Grow } from "@mui/material";
-import ContadorLikes from "./components/ContadorLikes";
 import { useState, useEffect } from "react";
+import BoxMensaje from "./components/BoxMensaje";
 const theme = createTheme({
   palette: {
     primary: {
@@ -52,7 +52,7 @@ function App() {
         <GridQuienSoy />
         <GridHabilitys />
         <GridProyects />
-        <ContadorLikes />
+        <BoxMensaje />
         <Footer />
       </ThemeProvider>
     </div>

@@ -67,8 +67,15 @@ video{
   margin-left: 5px;
 }
 
-.CardContador{
-  width: 700px;
+
+@media screen and (max-width: 300px) {
+  .Imagen1{
+    width: 125px;
+  }
+  .Imagen2 {
+      width: 350px;
+  }
+  
 }
 @media screen and (max-width: 600px) {
   .Imagen1{
@@ -78,10 +85,6 @@ video{
       width: 350px;
   }
   
-  .CardContador{
-    width: 400px;
-    font-size: small;
-  }
 }
 @media screen and (max-width: 1000px) {
   .Imagen1{
@@ -89,9 +92,5 @@ video{
   }
   .Imagen2 {
       width: 350px;
-  }
-  .CardContador{
-    width: 400px;
-    font-size: small;
   }
 }
