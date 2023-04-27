@@ -21,7 +21,7 @@ function NavBar() {
               edge="start"
               color="inherit"
               aria-label="menu"
-              sx={{ mr: 2, ml:5}}
+              sx={{ mr: 2, ml: 2}}
             >
               <img src={Logo} alt='Avatar' width={75}></img>
             </IconButton>
