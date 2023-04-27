@@ -1,5 +1,5 @@
 import { Grid } from '@mui/material'
-import Device from '../assets/image/device1.png';
+import Device from '../assets/image/device_final.png';
 
 
 function GridPresentation() {
