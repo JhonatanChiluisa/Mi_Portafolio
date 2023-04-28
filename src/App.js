@@ -36,7 +36,7 @@ function App() {
 
         <div className="container">
           <Grow in={check} {...(check ? { timeout: 2000 } : {})}>
-            <Typography variant="h3">
+            <Typography variant="h3" mx={1}>
               Diseñador y Desarrollador de Software
             </Typography>
           </Grow>

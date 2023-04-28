@@ -19,15 +19,15 @@ function Footer() {
         <Grid item>
             <Grid container
             direction="row"
-            justifyContent="center"
-            alignItems="center" mt={5} mb={5}>
+            justifyContent='space-around'
+            alignItems="center" mt={5} mb={5} spacing={2}>
                 <Grid item>
                     <IconButton
                         size="large"
                         edge="start"
                         color="secondary"
                         aria-label="menu"
-                        sx={{ m: 1 }}
+                        
                         href='https://www.facebook.com/jonathan.chiluisa.58?mibextid=ZbWKwL'
                     >
                         <FacebookIcon/>
@@ -39,7 +39,7 @@ function Footer() {
                         edge="start"
                         color="secondary"
                         aria-label="menu"
-                        sx={{ m: 1 }}
+                        
                         href='mailto:jhonatanchiluisagarcia@gmail.com'
                     >
                         <GoogleIcon/>
@@ -51,7 +51,7 @@ function Footer() {
                         edge="start"
                         color="secondary"
                         aria-label="menu"
-                        sx={{ m: 2 }}
+                       
                         href='https://instagram.com/jhonatanjjj18?igshid=OTJhZDVkZWE='
                     >
                         <InstagramIcon/>
@@ -63,7 +63,7 @@ function Footer() {
                         edge="start"
                         color="secondary"
                         aria-label="menu"
-                        sx={{ m: 1 }}
+                        
                         href='https://www.linkedin.com/in/jhonatan-chiluisa-garcia-643204203'
                     >
                         <LinkedInIcon/>
@@ -75,7 +75,7 @@ function Footer() {
                         edge="start"
                         color="secondary"
                         aria-label="menu"
-                        sx={{ m: 1 }}
+                        
                         href='https://github.com/JhonatanChiluisa/'
                     >
                         <GitHubIcon/>
@@ -87,7 +87,7 @@ function Footer() {
                         edge="start"
                         color="secondary"
                         aria-label="menu"
-                        sx={{ m: 1 }}
+                        
                         href='tel:+593995304199'
                     >
                         <CallIcon/>
