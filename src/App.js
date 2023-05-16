@@ -10,6 +10,7 @@ import BgVideo from "./assets/video/bgvideo.mp4";
 import { Typography, Grow } from "@mui/material";
 import { useState, useEffect } from "react";
 import BoxMensaje from "./components/BoxMensaje";
+import ParticlesBackground from "./ParticlesBackground";
 const theme = createTheme({
   palette: {
     primary: {
@@ -31,6 +32,7 @@ function App() {
   return (
     <div className="App">
       <ThemeProvider theme={theme}>
+        <ParticlesBackground />
         <NavBar />
         <video src={BgVideo} autoPlay loop muted />
 

@@ -11,8 +11,7 @@ function GridQuienSoy() {
   
   return (
     
-    <Grid container direction="column" justify='space-around' alignItems='center' className="Footer">
-      <ParticlesBackground/>    
+    <Grid container direction="column" justify='space-around' alignItems='center' className="Footer"> 
           <Grid item xs={4}>
             <div data-aos = "fade-up">
               <Typography variant='h4' mt={18} mb={2} pr={5} pl={5} color="secondary">
