@@ -2,6 +2,7 @@ import { Grid, Typography} from "@mui/material"
 import {useEffect} from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import ParticlesBackground from "./ParticlesBackground";
 function GridQuienSoy() {
 
   useEffect(() => {
@@ -9,8 +10,9 @@ function GridQuienSoy() {
   }, [])
   
   return (
+    
     <Grid container direction="column" justify='space-around' alignItems='center' className="Footer">
-        
+      <ParticlesBackground/>    
           <Grid item xs={4}>
             <div data-aos = "fade-up">
               <Typography variant='h4' mt={18} mb={2} pr={5} pl={5} color="secondary">
