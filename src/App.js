@@ -10,7 +10,8 @@ import BgVideo from "./assets/video/bgvideo.mp4";
 import { Typography, Grow } from "@mui/material";
 import { useState, useEffect } from "react";
 import BoxMensaje from "./components/BoxMensaje";
-import ParticlesBackground from "./ParticlesBackground";
+import ParticlesBackground from "./components/ParticlesBackground";
+
 const theme = createTheme({
   palette: {
     primary: {
