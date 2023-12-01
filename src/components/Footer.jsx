@@ -102,7 +102,8 @@ function Footer() {
         </Grid>
         <Grid item>
             <Typography align='center' p={5} color="secondary" variant='subtitle2'>
-                Made with Material UI <img src={MaterialUI} alt='Logo' className='IconMaterialUI'></img>
+                Made with Material UI 
+                    <img src={MaterialUI} alt='Logo' className='IconMaterialUI'></img>
             </Typography>
         </Grid>
     </Grid>

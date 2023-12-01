@@ -7,50 +7,39 @@ import GridQuienSoy from "./components/GridQuienSoy";
 import Footer from "./components/Footer";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
 import BgVideo from "./assets/video/bgvideo.mp4";
-import { Typography, Grow } from "@mui/material";
-import { useState, useEffect } from "react";
+import { Typography} from "@mui/material";
 import BoxMensaje from "./components/BoxMensaje";
 import ParticlesBackground from "./components/ParticlesBackground";
 
 const theme = createTheme({
   palette: {
     primary: {
-      // Purple and green play nicely together.
+      // Purple
       main: "#6E07F3",
     },
     secondary: {
-      // This is green.A700 as hex.
+      // White
       main: "#ffffff",
     },
   },
 });
 
 function App() {
-  const [check, setChecked] = useState(false);
-  useEffect(() => {
-    setChecked(true);
-  }, []);
   return (
     <div className="App">
       <ThemeProvider theme={theme}>
         <ParticlesBackground />
         <NavBar />
         <video src={BgVideo} autoPlay loop muted />
-
         <div className="container">
-          <Grow in={check} {...(check ? { timeout: 2000 } : {})}>
-            <Typography variant="h3" mx={1}>
-              Diseñador y Desarrollador de Software
-            </Typography>
-          </Grow>
-          <Grow in={check} {...(check ? { timeout: 3000 } : {})}>
-            <Typography variant="subtitle1" color="secundary" m={3}>
-              Analizo, modelo y codifico aplicaciones estilizadas y
-              minimalistas, me apasiona lo que hago.
-            </Typography>
-          </Grow>
+          <Typography variant="h3" mx={1}>
+            Diseñador y Desarrollador de Software
+          </Typography>
+          <Typography variant="subtitle1" color="secundary" m={3}>
+            Analizo, modelo y codifico aplicaciones estilizadas y
+            minimalistas, me apasiona lo que hago.
+          </Typography>
         </div>
-
         <GridPresentation />
         <GridQuienSoy />
         <GridHabilitys />

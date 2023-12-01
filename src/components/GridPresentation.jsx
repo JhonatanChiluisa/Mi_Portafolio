@@ -1,7 +1,6 @@
 import { Grid } from '@mui/material'
 import Device from '../assets/image/device_final.png';
 
-
 function GridPresentation() {
   return (
     <Grid
