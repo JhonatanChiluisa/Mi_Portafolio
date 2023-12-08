@@ -1,7 +1,6 @@
 
-import {Grid, Box, Card, CardContent, Typography, CardActionArea, CardActions, CardMedia} from '@mui/material';
+import {Grid, Box, Card, CardContent, Typography, CardActionArea, CardActions} from '@mui/material';
 import {useEffect, useState} from 'react'
-import Bg from '../assets/image/backgroundCard.jpg';
 function Proyects() {
 
   const [repos, setRepos] = useState([]);
@@ -28,12 +27,6 @@ function Proyects() {
                 data-aos-easing="ease-in-sine">
               <Card variant="outlined" sx={{borderRadius: 3, boxShadow: 3}} >
                 <CardActionArea>
-                  <CardMedia
-                    component="img"
-                    height="140"
-                    image={Bg}
-                    alt="Background Card"
-                  />
                     <CardContent>
                     <Typography gutterBottom variant="h5" component="div">
                         {

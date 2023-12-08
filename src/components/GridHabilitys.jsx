@@ -14,9 +14,6 @@ function GridHabilitys() {
     <Box sx={{ justifyContent: 'space-around' }}>
       <Grid container direction={matches ? 'row' : 'column' } spacing={2} className="BgGrid" alignItems='center' p={2}>
         <Grid item xs={12} sm={12} md={4} lg={4} xl={4}>
-          <div data-aos="fade-right"
-              data-aos-offset="300"
-              data-aos-easing="ease-in-sine">
             <Card variant="outlined" sx={{boxShadow: 4, borderRadius: 3}}>
                 <CardActionArea>
                   <CardContent>
@@ -40,12 +37,8 @@ function GridHabilitys() {
                   </CardContent>
                 </CardActionArea>
             </Card>
-          </div>
         </Grid>
         <Grid item xs={12} sm={12} md={4} lg={4} xl={4}>
-          <div data-aos="fade-down"
-              data-aos-offset="300"
-              data-aos-easing="ease-in-sine">
             <Card variant="outlined" sx={{boxShadow: 3, borderRadius: 3}}>
               <CardActionArea>
                 <CardContent>
@@ -66,12 +59,9 @@ function GridHabilitys() {
                 </CardContent>
               </CardActionArea>
             </Card>
-          </div>
+          
         </Grid>
         <Grid item xs={12} sm={12} md={4} lg={4} xl={4}>
-          <div data-aos="fade-left"
-              data-aos-offset="300"
-              data-aos-easing="ease-in-sine">
             <Card variant="outlined" sx={{boxShadow: 4, borderRadius: 3}}>
               <CardActionArea>
                 <CardContent>
@@ -92,7 +82,6 @@ function GridHabilitys() {
                 </CardContent>
               </CardActionArea>
             </Card>
-          </div>
         </Grid>
       </Grid>
     </Box>
